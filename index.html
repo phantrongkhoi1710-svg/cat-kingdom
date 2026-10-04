@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👑</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Kingdom (Vương Quốc Mèo) - 3D City Builder</title>
+    <!-- Google Fonts for cozy aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS Play CDN for instantaneous styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'media',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Outfit', 'Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-Bi72kqCW.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BpbI1exL.css">
+  </head>
+  <body class="bg-slate-900 overflow-hidden select-none m-0 p-0 h-screen w-screen relative">
+    <!-- Three.js Canvas Container -->
+    <div id="game-canvas-container" class="absolute inset-0 w-full h-full cursor-grab active:cursor-grabbing"></div>
+
+    <!-- UI Overlay container -->
+    <div id="ui-root" class="absolute inset-0 pointer-events-none"></div>
+
+  </body>
+</html>
